@@ -1,0 +1,11 @@
+button,
+input,
+select,
+textarea,
+input::file-selector-button {
+	font-family: inherit;
+	font-size: 100%;
+}
+label {
+	font-weight: bold;
+}

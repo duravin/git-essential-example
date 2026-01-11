@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!-- Textual -->
+        Name: <input type="text"><br>
+        Email: <input type="email"><br>
+        Website: <input type="url"><br>
+        Phone: <input type="tel"><br>
+        Password: <input type="password"><br>
+
+        <!-- Numeric -->
+        Age: <input type="number" min="0" max="100"><br>
+        Rating: <input type="range" min="1" max="10"><br>
+
+        <!-- Date & Time -->
+        Birthday: <input type="date"><br>
+        Meeting Time: <input type="time"><br>
+        Full Appointment: <input type="datetime-local"><br>
+        Billing Month: <input type="month"><br>
+        Project Week: <input type="week"><br>
+
+        <!-- Choice -->
+        Favorite Color: <input type="color"><br>
+        Gender:
+        <input type="radio" name="gender" value="M"> Male
+        <input type="radio" name="gender" value="F"> Female<br>
+        Interests:
+        <input type="checkbox" name="sports"> Sports
+        <input type="checkbox" name="music"> Music<br>
+
+        <!-- File & Hidden -->
+        Upload Resume: <input type="file"><br>
+        <input type="hidden" name="sessionID" value="12345">
+
+        <!-- Buttons -->
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        <input type="button" value="Click Me" onclick="alert('Hello!')">
+    </form>
+
+</body>
+
+</html>
